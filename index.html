@@ -11,12 +11,23 @@
 <body>
     <div class="container">
         <div id="beer">
-            <div class="top-circle"></div>
-            <img class="image" src="" alt="image of a bear">
-            <p class="description"></p>
-            <div class="bottom-circle"></div>
+            <div class="image-section">
+                <img class="image" src="" alt="image of a bear"> <br>
+                <button id="grabButton">Grab a beer</button>
+            </div>
+            <div class="content">
+
+                <h4 class="name"></h4>
+                <p class="description"></p>
+                <div class="details flex">
+                    <p class="box">Date first brewed: <span class="date"></span></p>
+                    <p class="box volumes">Volume <span class="volume"></span> liters</p>
+                    <p class="box">Alchohol by Volume: <span class="alv"></span>%</p>
+                </div>
+            </div>
+
         </div>
-        <button id="grabButton">Grab a beer</button>
+
     </div>
 
     <script src="script.js"></script>
